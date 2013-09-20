@@ -68,6 +68,18 @@ CPU ATMEL_AT91SAM7S256
 		EVENT = RUNEVENT;
 	};
 
+	
+	TASK SonnerTask
+	{
+		AUTOSTART = FALSE;
+		SCHEDULE = FULL;
+		PRIORITY = 2;
+		ACTIVATION = 1;
+		STACKSIZE = 512;
+		RESOURCE = lcd;
+		EVENT = RUNEVENT;
+	};
+
 	ALARM cyclic_alarm1
 	{
 		COUNTER = SysTimerCnt;
@@ -79,6 +91,21 @@ CPU ATMEL_AT91SAM7S256
 		{
 			ALARMTIME = 1;
 			CYCLETIME = 4;
+			APPMODE = appmode1;
+		};
+	};
+
+	ALARM cyclic_alarm2
+	{
+		COUNTER = SysTimerCnt;
+		ACTION = ACTIVATETASK
+		{
+			TASK = SonnerTask;
+		};
+		AUTOSTART = TRUE
+		{
+			ALARMTIME = 1;
+			CYCLETIME = 20;
 			APPMODE = appmode1;
 		};
 	};
