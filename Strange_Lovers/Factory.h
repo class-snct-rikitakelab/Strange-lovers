@@ -152,7 +152,7 @@ DirectionCtrl directionCtrl;
 //StarategyPart
 Runner runner;
 
-Section *startSection = &startUp;
+Section *startSection = &thurdCurve_1;
 
 //StrategyPart/RunningMethodSwitchJudge
 

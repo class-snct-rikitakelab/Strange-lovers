@@ -21,10 +21,10 @@ void thurd_curve_factory_init()
 
 
 	//thurdCurve_1 RunningMethod
-	use_controller.target_curvature_controller_weight = 0.5;
-	use_controller.target_light_controller_weight = 0.5;
+	use_controller.target_curvature_controller_weight = 0.0;
+	use_controller.target_light_controller_weight = 1.0;
 	//switch_term.distance = 299.2192;
-	switch_term.distance =270.0;
+	switch_term.distance =270000.0;
 	
 	balancing_requrement = 1;
 	target_tail_angle=0;
