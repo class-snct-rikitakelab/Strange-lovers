@@ -92,6 +92,7 @@ TARGET_SOURCES := \
 	./StrategyFactories/Out/AfterOutFifthCurveStraight.c \
 	./StrategyFactories/Out/OutFifthCurveFactory.c \
 	./StrategyFactories/Out/OutSixthCurveFactory.c \
+	./StrategyFactories/Out/SeeSaw_0Factory.c \
 	./StrategyFactories/Out/SeeSaw_1Factory.c \
 	./StrategyFactories/Out/SeeSaw_StopFactory.c \
 	./StrategyFactories/Out/SeeSaw_2Factory.c \

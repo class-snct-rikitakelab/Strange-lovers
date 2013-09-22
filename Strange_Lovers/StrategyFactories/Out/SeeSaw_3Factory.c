@@ -11,9 +11,9 @@ void seesaw_3_factory_init(){
 	int (*fp_SwitchJudge)(SwitchTerm);
 
 	//SeesawForwardRunning
-	use_controller.target_curvature_controller_weight = 0.3;
-	use_controller.target_light_controller_weight = 0.7;
-	switch_term.distance =120; //320;
+	use_controller.target_curvature_controller_weight = 0.0;
+	use_controller.target_light_controller_weight = 1.0;
+	switch_term.distance = 120;//200; //120;
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
@@ -30,7 +30,7 @@ void seesaw_3_factory_init(){
 	//SeesawRunningUp
 	use_controller.target_curvature_controller_weight = 0.0;
 	use_controller.target_light_controller_weight = 1.0;
-	switch_term.distance =60;
+	switch_term.distance =70;
 	switch_term.inclination = 130;  //100;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
@@ -51,10 +51,10 @@ void seesaw_3_factory_init(){
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
-	switch_term.time = 450;
+	switch_term.time = 400;
 	balancing_requrement = 1;
 	target_tail_angle=105;
-	gyroOffsetRevise=-600;
+	gyroOffsetRevise=-1000;
 	request_forced_stop= 0;
 	movementDirection = BACKWARD;
 	fp_SwitchJudge = TimeSwitch_judge_switch_method;

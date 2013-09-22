@@ -17,11 +17,11 @@ void seesaw_stop_factory_init(){
 	switch_term.inclination = 0;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
-	switch_term.time =1000;
+	switch_term.time =2000;
 	balancing_requrement = 0;
 	target_tail_angle=100;
 	gyroOffsetRevise=0;
-	request_forced_stop= 1;
+	request_forced_stop= 0;
 	movementDirection = FORWARD;
 	fp_SwitchJudge = TimeSwitch_judge_switch_method;
 	RunningMethod_init(&SeesawStopMethod,balancing_requrement,use_controller,target_tail_angle, gyroOffsetRevise,switch_term,fp_SwitchJudge,request_forced_stop,movementDirection);
@@ -33,7 +33,7 @@ void seesaw_stop_factory_init(){
 	TargetValues target_values; 
 	target_values.target_brightness = 0.5;
 	target_values.target_curvature = 0.0;
-	target_values.target_speed = 0;
+	target_values.target_speed =-30;
 	Section *nextSection = &seesaw_2;
 	RunningMethod *runningMethod = seesaw_stop_running_method_array;
 	Section_init(&seesaw_stop,nextSection,number_of_running_method,runningMethod,target_values);

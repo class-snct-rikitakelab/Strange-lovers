@@ -18,9 +18,9 @@ void seesaw_Upslope_factory_init(){
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
-	switch_term.time = 1000;
+	switch_term.time = 2000;
 	balancing_requrement = 0;
-	target_tail_angle=110;
+	target_tail_angle=105;
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
@@ -37,7 +37,7 @@ void seesaw_Upslope_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 0;
 	balancing_requrement = 0;
-	target_tail_angle=120;
+	target_tail_angle=115;
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
@@ -58,13 +58,13 @@ void seesaw_Upslope_factory_init(){
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
-	fp_SwitchJudge = DistanceSwitch_judge_switch_method;//éûä‘Ç≈êÿÇËë÷Ç¶ÇÊÇ§Ç©Ç∆
+	fp_SwitchJudge = DistanceSwitch_judge_switch_method;
 	RunningMethod_init(&SeesawSwitchDownslopeMethod,balancing_requrement,use_controller,target_tail_angle, gyroOffsetRevise,switch_term,fp_SwitchJudge,request_forced_stop,movementDirection);
 
 	//SeesawDownslopeRunning
 	use_controller.target_curvature_controller_weight = 0.8;
 	use_controller.target_light_controller_weight = 0.2;
-	switch_term.distance = 50;
+	switch_term.distance = 100;
 	switch_term.inclination =0;
 	switch_term.inPushed = 0;
 	switch_term.speed = 0;
@@ -87,7 +87,7 @@ void seesaw_Upslope_factory_init(){
 	TargetValues target_values; 
 	target_values.target_brightness = 0.5;
 	target_values.target_curvature = 0.0;
-	target_values.target_speed = 70;
+	target_values.target_speed = 80;
 	Section *nextSection = &seesaw_4;
 	RunningMethod *runningMethod = seesaw_Upslope_running_method_array;
 	Section_init(&seesaw_Upslope,nextSection,number_of_running_method,runningMethod,target_values);

@@ -33,7 +33,7 @@ void seesaw_2_factory_init(){
 	int number_of_running_method=1;
 	TargetValues target_values; 
 	target_values.target_brightness = 0.5;
-	target_values.target_curvature = 0.003;
+	target_values.target_curvature = 0.002;
 	target_values.target_speed = -50;
 	target_values.target_runner_angle = 0;
 

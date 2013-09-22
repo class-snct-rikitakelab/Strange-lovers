@@ -20,6 +20,7 @@
 #include "../Out/OutSixthCurveFactory.h"
 
 #include "../Out/SeeSaw_stopFactory.h"
+#include "../Out/SeeSaw_0Factory.h"
 #include "../Out/SeeSaw_1Factory.h"
 #include "../Out/SeeSaw_stopFactory.h"
 #include "../Out/SeeSaw_2Factory.h"
@@ -51,7 +52,7 @@ void strategies_init(){
 	after_out_fifth_curve_straight_factory_init();
 	out_sixth_curve_factory_init();
 
-	
+	seesaw_0_factory_init();
 	seesaw_1_factory_init();
 	seesaw_stop_factory_init();
 	seesaw_2_factory_init();
@@ -61,7 +62,8 @@ void strategies_init(){
 	seesaw_Upslope_factory_init();
 	seesaw_4_factory_init();
 
-	startSection = &startUp;
+	startSection =&startUpWithTail; //&seesaw_3; &startUpWithTail;
+	//startSection = &outSixthCurve_2;
 
 }
 
