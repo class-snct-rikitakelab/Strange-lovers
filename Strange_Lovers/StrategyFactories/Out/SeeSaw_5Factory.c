@@ -38,7 +38,7 @@ void seesaw_5_factory_init(){
 	target_values.target_brightness = 0.4; //目標輝度
 	target_values.target_curvature = 0.0; //目標曲率 [1/mm]
 	target_values.target_speed = -5;  //目標速度 [mm/s]
-	Section *nextSection = &seesaw_stop; //次の区間
+	Section *nextSection = &startUp; //次の区間
 	RunningMethod *runningMethod = seesaw_1_running_method_array;
 	Section_init(&seesaw_5,nextSection,number_of_running_method,runningMethod,target_values);
 }
