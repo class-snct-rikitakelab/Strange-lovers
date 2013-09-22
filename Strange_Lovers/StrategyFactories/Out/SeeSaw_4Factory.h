@@ -3,13 +3,13 @@
 
 #include "../StrategyFactories_inculude.h"
 
-#include "SeeSaw_1Factory.h"
+#include "SeeSaw_5Factory.h"
 
 
 //StarategyPart
 
 Section seesaw_4;
-RunningMethod SeesawRunningDownMethod;
+RunningMethod SeesawFinalLinetraceMethod;
 RunningMethod seesaw_4_running_method_array[1];
 
 

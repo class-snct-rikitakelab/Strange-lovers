@@ -51,7 +51,7 @@ void seesaw_3_factory_init(){
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
-	switch_term.time = 400;
+	switch_term.time = 390;
 	balancing_requrement = 1;
 	target_tail_angle=95;
 	gyroOffsetRevise=-1000;

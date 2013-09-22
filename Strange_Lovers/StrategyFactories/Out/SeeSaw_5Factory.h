@@ -9,7 +9,7 @@
 //StarategyPart
 
 Section seesaw_5;
-RunningMethod SeesawFinalLineTraceMethod;
+RunningMethod SeesawFinalStopMethod;
 RunningMethod seesaw_5_running_method_array[1];
 
 
