@@ -20,7 +20,7 @@ void seesaw_Upslope_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 2000;
 	balancing_requrement = 0;
-	target_tail_angle=105;
+	target_tail_angle=108;
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
@@ -37,7 +37,7 @@ void seesaw_Upslope_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 0;
 	balancing_requrement = 0;
-	target_tail_angle=115;
+	target_tail_angle=118;
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
@@ -70,7 +70,7 @@ void seesaw_Upslope_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 0;
 	balancing_requrement = 0;
-	target_tail_angle=800;
+	target_tail_angle=100;
 	gyroOffsetRevise=15;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
