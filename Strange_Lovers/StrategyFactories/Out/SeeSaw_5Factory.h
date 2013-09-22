@@ -3,7 +3,7 @@
 
 #include "../StrategyFactories_inculude.h"
 
-#include "FiststCurveFactory.h"
+#include "StartUpFactory.h"
 
 
 //StarategyPart
