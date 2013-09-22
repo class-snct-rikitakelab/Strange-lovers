@@ -17,7 +17,7 @@ void seesaw_2_3factory_init(){
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
-	switch_term.time = 1;
+	switch_term.time = 1000;
 	balancing_requrement = 1;
 	target_tail_angle=0;
 	gyroOffsetRevise=0;
@@ -32,7 +32,7 @@ void seesaw_2_3factory_init(){
 	int number_of_running_method=1;
 	TargetValues target_values; 
 	target_values.target_brightness = 0.3;
-	target_values.target_curvature = 0;// -0.4;
+	target_values.target_curvature = 0.0;
 	target_values.target_speed = 50;
 	Section *nextSection = &seesaw_3;
 	RunningMethod *runningMethod = seesaw_2_3running_method_array;
