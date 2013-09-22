@@ -61,9 +61,11 @@ void strategies_init(){
 	seesaw_3_factory_init();
 	seesaw_Upslope_factory_init();
 	seesaw_4_factory_init();
+	seesaw_5_factory_init();
 
-	startSection =&startUpWithTail; //&seesaw_3; &startUpWithTail;
-	//startSection = &outSixthCurve_2;
+//	startSection =&seesaw_Upslope;//&startUpWithTail; //&seesaw_3; &startUpWithTail;
+	
+	startSection = &outSixthCurve_2;
 
 }
 

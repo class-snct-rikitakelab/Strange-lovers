@@ -70,8 +70,8 @@ void seesaw_Upslope_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 0;
 	balancing_requrement = 0;
-	target_tail_angle=100;
-	gyroOffsetRevise=40;
+	target_tail_angle=800;
+	gyroOffsetRevise=15;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
 	fp_SwitchJudge = DistanceSwitch_judge_switch_method;

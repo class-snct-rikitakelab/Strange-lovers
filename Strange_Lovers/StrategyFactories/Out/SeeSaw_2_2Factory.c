@@ -30,10 +30,10 @@ void seesaw_2_2factory_init(){
 	switch_term.inclination = 0;
 	switch_term.inPushed = 0;
 	switch_term.speed = 0;
-	switch_term.time =200;
+	switch_term.time =250; //200;
 	//switch_term.tail_angle=130;		//119;
 	balancing_requrement = 0;
-	target_tail_angle=111;
+	target_tail_angle=111; //111;
 
 	gyroOffsetRevise=0;
 	request_forced_stop = 0;
