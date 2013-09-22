@@ -64,7 +64,7 @@ void seesaw_Upslope_factory_init(){
 	//SeesawDownslopeRunning
 	use_controller.target_curvature_controller_weight = 0.8;
 	use_controller.target_light_controller_weight = 0.2;
-	switch_term.distance = 100;
+	switch_term.distance = 120;
 	switch_term.inclination =0;
 	switch_term.inPushed = 0;
 	switch_term.speed = 0;

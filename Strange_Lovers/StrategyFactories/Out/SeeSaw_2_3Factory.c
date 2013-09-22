@@ -23,7 +23,7 @@ void seesaw_2_3factory_init(){
 	gyroOffsetRevise=0;
 	request_forced_stop= 0;
 	movementDirection = FORWARD;
-	fp_SwitchJudge = TimeSwitch_judge_switch_method;
+	fp_SwitchJudge = DistanceSwitch_judge_switch_method;
 	RunningMethod_init(&SeesawBeforeForwardRunningMethod,balancing_requrement,use_controller,target_tail_angle, gyroOffsetRevise,switch_term,fp_SwitchJudge,request_forced_stop,movementDirection);
 
 	seesaw_2_3running_method_array[0]=SeesawBeforeForwardRunningMethod;
