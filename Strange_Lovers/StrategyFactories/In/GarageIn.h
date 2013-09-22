@@ -8,6 +8,7 @@
 
 Section garageIn;
 RunningMethod beforeGarageMethod;
+RunningMethod grayGarageMethod;
 
 RunningMethod garage_running_method_array[1];
 

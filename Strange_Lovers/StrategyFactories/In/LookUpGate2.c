@@ -23,7 +23,7 @@ void look_up2_factory_init(){
 	switch_term.time =0;
 	switch_term.distance_obstacle = 27;
 	balancing_requrement = 0;
-	target_tail_angle=90;
+	target_tail_angle=80;
 	gyroOffsetRevise=0;
 	request_forced_stop =0; 
 	movementDirection = FORWARD;
@@ -37,7 +37,7 @@ void look_up2_factory_init(){
 	TargetValues target_values; 
 	target_values.target_brightness = 0.5;
 	target_values.target_curvature = 0.0;
-	target_values.target_speed = 180;
+	target_values.target_speed = 200;
 	Section *nextSection = &lookup3;
 	Section_init(&lookup2,nextSection,number_of_running_method,look_up2_running_method_array,target_values);
 }

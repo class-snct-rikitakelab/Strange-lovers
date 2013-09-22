@@ -2,8 +2,9 @@
 #include "../Factory.c"
 	
 void PID_TAIL_init(PID_TAIL *self){
+
 	self->Kp = 4.0;
-}
+
 
 
 void PID_tail(PID_TAIL *self,int target_tail_angle){
