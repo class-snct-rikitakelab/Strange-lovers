@@ -13,7 +13,7 @@ void seesaw_3_factory_init(){
 	//SeesawForwardRunning
 	use_controller.target_curvature_controller_weight = 0.0;
 	use_controller.target_light_controller_weight = 1.0;
-	switch_term.distance = 160; //120;
+	switch_term.distance = 170; //120;
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
@@ -53,7 +53,7 @@ void seesaw_3_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time = 400;
 	balancing_requrement = 1;
-	target_tail_angle=105;
+	target_tail_angle=95;
 	gyroOffsetRevise=-1000;
 	request_forced_stop= 0;
 	movementDirection = BACKWARD;
