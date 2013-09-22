@@ -5,6 +5,7 @@ void PID_TAIL_init(PID_TAIL *self){
 
 	self->Kp = 2.4;
 
+}
 
 
 void PID_tail(PID_TAIL *self,int target_tail_angle){

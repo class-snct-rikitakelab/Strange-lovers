@@ -65,7 +65,7 @@ void strategies_init(){
 
 //	startSection =&seesaw_Upslope;//&startUpWithTail; //&seesaw_3; &startUpWithTail;
 	
-	startSection = &outSixthCurve_2;
+	startSection = &startUp;
 
 }
 
