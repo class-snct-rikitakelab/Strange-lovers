@@ -4,6 +4,8 @@
 void InclinationEncoder_init(InclinationEncoder *self,U8 port_id)
 {
 	self->port_id = port_id;
+	self->gyro_offset = 603; //here
+	self->initial_gyro_offset = 603;  //here
 }
 
 int InclinationEncoder_get_inclination(InclinationEncoder *self)

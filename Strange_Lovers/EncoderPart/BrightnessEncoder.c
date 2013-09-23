@@ -5,8 +5,8 @@ void BrightnessEncoder_init(BrightnessEncoder *self,U8 port_id,LowPassFillter *l
 {
 	self->port_id = port_id;
 	self->brightness=0;
-	self->black_value = 0;
-	self->white_value = 0;
+	self->black_value = 644;  //here
+	self->white_value = 522;  //here
 
 	self->lowPassfFillter = lowPassFillter;
 

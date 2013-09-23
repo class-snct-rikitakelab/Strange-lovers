@@ -64,8 +64,6 @@ void strategies_init(){
 	seesaw_5_factory_init();
 
 //	startSection =&seesaw_Upslope;//&startUpWithTail; //&seesaw_3; &startUpWithTail;
-	
 	startSection = &startUp;
-
 }
 

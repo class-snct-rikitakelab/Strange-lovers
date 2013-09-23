@@ -60,11 +60,18 @@ void user_1ms_isr_type2(void){
 
 
 TASK(INITIALIZE){
+
+	/*/kokokara
 	while(1){
 		if(Calibration_calibration(&calibration) ==1){
 			break;
 		}
 	}
+	*/
+	
+
+	ecrobot_debug1(brightnessEncoder.white_value, brightnessEncoder.black_value, inclinationEncoder.gyro_offset);
+
 	Runner_start_run(&runner);
 	TerminateTask();
 }

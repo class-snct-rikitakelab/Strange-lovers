@@ -14,7 +14,7 @@ void seesaw_4_factory_init(){
 
 	use_controller.target_curvature_controller_weight = 0.7;
 	use_controller.target_light_controller_weight = 0.3;
-	switch_term.distance = 200;
+	switch_term.distance = 300;
 	switch_term.inclination = 600;
 	switch_term.inPushed = 1;
 	switch_term.speed = 0;
