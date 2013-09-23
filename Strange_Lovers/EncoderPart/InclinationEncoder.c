@@ -23,10 +23,10 @@ int InclinationEncoder_get_intilal_gyro_offset(InclinationEncoder *self)
 
 void InclinationEncoder_set_gyro_offset(InclinationEncoder *self,int gyro_offset){
 
-	self->gyro_offset = gyro_offset;
+	self->gyro_offset = 603;
 }
 
 void InclinationEncoder_set_initial_gyro_offset(InclinationEncoder *self,int gyro_offset){
 
-	self->initial_gyro_offset = gyro_offset;
+	self->initial_gyro_offset = 603;
 }

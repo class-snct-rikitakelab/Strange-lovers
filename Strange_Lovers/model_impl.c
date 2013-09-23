@@ -19,6 +19,7 @@ void ecrobot_device_initialize(void){
 	ecrobot_init_bt_slave("LEJOS-OSEK");
 	ecrobot_set_light_sensor_active(NXT_PORT_S3);
 	ecrobot_init_sonar_sensor(NXT_PORT_S2);
+
 	initialization();
 }
 
@@ -60,11 +61,15 @@ void user_1ms_isr_type2(void){
 
 
 TASK(INITIALIZE){
+	/*
 	while(1){
 		if(Calibration_calibration(&calibration) ==1){
 			break;
 		}
-	}
+	}*/
+
+	//ecrobot_debug1(brightnessEncoder.white_value,brightnessEncoder.black_value,inclinationEncoder.gyro_offset);
+
 	Runner_start_run(&runner);
 	TerminateTask();
 }

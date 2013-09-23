@@ -15,7 +15,7 @@ void seesaw_5_factory_init(){
 	use_controller.target_light_controller_weight =0.15;
 	switch_term.inclination = 0;
 	switch_term.speed = 40;
-	switch_term.time =10000;
+	switch_term.time =100000;
 	balancing_requrement = 0;
 	target_tail_angle=100;
 	gyroOffsetRevise=0;
