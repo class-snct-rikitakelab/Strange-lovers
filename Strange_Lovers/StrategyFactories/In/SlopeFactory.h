@@ -2,18 +2,15 @@
 #define _SlopeFactory_
 
 
-
-#include "../../StrategyFactories/StrategyFactories_inculude.h"
-#include "AfterSlopeStraightFactory.h"
+#include "Slope2Factory.h"
 
 
 //StarategyPart
 
 Section slope;
 RunningMethod slopeUpRunningMethod;
-RunningMethod slopeDownRunningMethod;
 
-RunningMethod slope_running_method_array[2];
+RunningMethod slope_running_method_array[1];
 
 
 //Section firstCurve;
