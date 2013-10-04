@@ -17,7 +17,9 @@ void garage_factory_init(){
 	use_controller.target_curvature_controller_weight = 0.0;
 	use_controller.target_light_controller_weight = 0.1;
 	use_controller.target_runner_angle_controller_weight = 0.9;
-	switch_term.distance =	1710;
+	//switch_term.distance =	1710;
+	switch_term.distance =	1760;
+	
 	switch_term.inclination = 0;
 	switch_term.inPushed = 0;
 	switch_term.speed = 0;
