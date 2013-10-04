@@ -7,6 +7,7 @@
 //OutCourse
 #include "../Out/FiststStraightFactory.h"
 #include "../Out/SlopeFactory.h"
+#include "../Out/Slope2Factory.h"
 
 #include "../Out/SecondStraightFactory.h"
 #include "../Out/SecondCurveFactory.h"
@@ -39,6 +40,7 @@ void strategies_init(){
 	first_curve_factory_init();
 	after_slope_straight_factory_init();
 	slope_factory_init();
+	slope2_factory_init();
 	first_straight_factory_init();
 	start_up__factory_init();
 	second_straight_factory_init();

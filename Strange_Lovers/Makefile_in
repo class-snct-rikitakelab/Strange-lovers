@@ -80,6 +80,7 @@ TARGET_SOURCES := \
 	./StrategyPart/RunningMethodSwitchJudge/SonarSwitch.c \
 	./StrategyFactories/In/FiststStraightFactory.c \
 	./StrategyFactories/In/SlopeFactory.c \
+	./StrategyFactories/In/Slope2Factory.c \
 	./StrategyFactories/In/AfterSlopeStraightFactory.c \
 	./StrategyFactories/In/FiststCurveFactory.c \
 	./StrategyFactories/In/StartUpFactory.c \
