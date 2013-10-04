@@ -80,6 +80,7 @@ TARGET_SOURCES := \
 	./StrategyFactories/Out/StartUpWithTailFactory.c \
 	./StrategyFactories/Out/FiststStraightFactory.c \
 	./StrategyFactories/Out/SlopeFactory.c \
+	./StrategyFactories/Out/Slope2Factory.c \
 	./StrategyFactories/Out/AfterSlopeStraightFactory.c \
 	./StrategyFactories/Out/FiststCurveFactory.c \
 	./StrategyFactories/Out/SecondStraightFactory.c \
