@@ -36,7 +36,7 @@ void out_sixth_curve_factory_init(){
 	number_of_running_method=1;
 	target_values.target_brightness = 0.5;
 	target_values.target_curvature = 1.0/250.0;	
-	target_values.target_speed = 300;
+	target_values.target_speed = 350;
 	nextSection= &outSixthCurve_2;
 	Section_init(&outSixthCurve_1,nextSection,number_of_running_method,sixth_curve_1_running_method_array,target_values);
 
@@ -44,7 +44,10 @@ void out_sixth_curve_factory_init(){
 	//outSixthCurve_2_LineTraceRunningMethod
 	use_controller.target_curvature_controller_weight = 0.5;
 	use_controller.target_light_controller_weight = 0.5;
-	switch_term.distance = 1200.0619;
+	//switch_term.distance = 1200.0619;
+	//switch_term.distance = 1400.0619;
+	switch_term.distance = 1400.0619;
+	switch_term.distance = 1500.0619;
 
 	
 	balancing_requrement = 1;
@@ -63,9 +66,9 @@ void out_sixth_curve_factory_init(){
 	//target_values.target_curvature = 1.0/250.0;
 	target_values.target_curvature = 1.0/300.0;
 	
-	target_values.target_speed = 300;
+	target_values.target_speed = 350;
 
-	nextSection = &seesaw_1;
+	nextSection = &seesaw_0;
 
 	Section_init(&outSixthCurve_2,nextSection,number_of_running_method,outSixth_curve_2_running_method_array,target_values);
 

@@ -23,7 +23,7 @@ void slope2_factory_init(){
 	//slopeDown2RunningMethod
 	slopeDown2RunningMethod.balancing_requrement = 1;
 	slopeDown2RunningMethod.fp_SwitchJudge= DistanceSwitch_judge_switch_method;
-	slopeDown2RunningMethod.gyroOffsetRevise = 9;
+	slopeDown2RunningMethod.gyroOffsetRevise = 7;
 	
 	slopeDown2RunningMethod.switch_term.distance = 1050;
 	slopeDown2RunningMethod.switch_term.inclination = 0;

@@ -4,6 +4,7 @@
 #include "../StrategyFactories_inculude.h"
 
 #include "Seesaw_UpslopeFactory.h"
+#include "SeeSaw_1Factory.h"
 
 
 
