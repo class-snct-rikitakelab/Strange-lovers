@@ -66,6 +66,8 @@ TASK(INITIALIZE){
 		}
 	}
 	Runner_start_run(&runner);
+
+	ecrobot_debug1(brightnessEncoder.black_value,brightnessEncoder.white_value,inclinationEncoder.gyro_offset);
 	TerminateTask();
 }
 

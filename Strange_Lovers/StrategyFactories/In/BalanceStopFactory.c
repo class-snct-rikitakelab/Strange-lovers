@@ -23,7 +23,7 @@ void balance_stop_factory_init(){
 	switch_term.speed = 0;
 	switch_term.time =2500;
 	balancing_requrement = 1;
-	target_tail_angle=0;
+	target_tail_angle=60;
 	gyroOffsetRevise=0;
 	request_forced_stop =0; 
 	fp_SwitchJudge = TimeSwitch_judge_switch_method;
